@@ -1,0 +1,74 @@
+# This file was created Tue Jan 11 15:03:27 2022
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /media/peptid/batu_drude/mc3_project/mc3_3_pope_17/charmm36/gromacs
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_mc3_tail.xvg -n index_density.ndx
+# gmx density is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "DLMC3_&_C118_H118R_H118T_H118S_C218_H218R_H218S_H218T_&_!POPE"
+    -3.66243                0
+    -3.51295                0
+    -3.36346                0
+    -3.21397                0
+    -3.06448                0
+      -2.915                0
+    -2.76551                0
+    -2.61602                0
+    -2.46654                0
+    -2.31705      0.000224193
+    -2.16756       0.00567628
+    -2.01808        0.0355791
+    -1.86859          0.14525
+     -1.7191          0.56595
+    -1.56961          1.45493
+    -1.42013          2.46847
+    -1.27064          3.16419
+    -1.12115          3.59192
+   -0.971666          4.01866
+   -0.822179          4.77259
+   -0.672692          5.83407
+   -0.523205          7.85879
+   -0.373718          10.9028
+   -0.224231          15.8172
+  -0.0747435           20.829
+   0.0747435          21.3655
+    0.224231          17.3734
+    0.373718          12.6162
+    0.523205          9.17149
+    0.672692          6.77265
+    0.822179          5.17702
+    0.971666          4.08314
+     1.12115          3.38818
+     1.27064           2.8343
+     1.42013          2.24672
+     1.56961          1.23962
+      1.7191         0.489996
+     1.86859         0.122666
+     2.01808        0.0178919
+     2.16756       0.00293719
+     2.31705      0.000617998
+     2.46654      0.000281157
+     2.61602                0
+     2.76551                0
+       2.915                0
+     3.06448                0
+     3.21397                0
+     3.36346                0
+     3.51295                0
+     3.66243                0

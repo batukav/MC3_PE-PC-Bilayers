@@ -1,0 +1,74 @@
+# This file was created Tue Jan 11 16:48:48 2022
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /media/peptid/batu_drude/mc3_project/mc3_1_pope_19/slipids
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_mc3_head.xvg -n index_density.ndx
+# gmx density is part of G R O M A C S:
+#
+# Glycine aRginine prOline Methionine Alanine Cystine Serine
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "DMD_&_N_C42_C43"
+    -3.27202                0
+    -3.13847                0
+    -3.00491      0.000111306
+    -2.87136       0.00424613
+    -2.73781        0.0200873
+    -2.60426         0.152528
+    -2.47071         0.660301
+    -2.33716          1.79736
+     -2.2036          3.57504
+    -2.07005          5.17201
+     -1.9365          5.79904
+    -1.80295          5.64604
+     -1.6694          4.87969
+    -1.53585          3.35703
+    -1.40229            2.117
+    -1.26874          1.21594
+    -1.13519         0.494553
+    -1.00164         0.122509
+   -0.868086        0.0153635
+   -0.734535      0.000443703
+   -0.600983                0
+   -0.467431                0
+   -0.333879                0
+   -0.200328                0
+  -0.0667759                0
+   0.0667759                0
+    0.200328                0
+    0.333879                0
+    0.467431                0
+    0.600983                0
+    0.734535       0.00526858
+    0.868086        0.0399329
+     1.00164         0.139394
+     1.13519         0.399242
+     1.26874          1.04115
+     1.40229          2.17132
+     1.53585          3.67502
+      1.6694          5.17013
+     1.80295          5.98099
+      1.9365          5.82905
+     2.07005          4.86716
+      2.2036          3.28022
+     2.33716           1.6908
+     2.47071         0.578106
+     2.60426         0.138612
+     2.73781        0.0214448
+     2.87136       0.00145694
+     3.00491                0
+     3.13847                0
+     3.27202                0

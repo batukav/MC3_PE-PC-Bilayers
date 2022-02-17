@@ -1,0 +1,74 @@
+# This file was created Tue Jan 11 15:01:58 2022
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /media/peptid/batu_drude/mc3_project/mc3_3_pope_17/charmm36/gromacs
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_lipid.xvg -n index_density.ndx
+# gmx density is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "POPE"
+    -3.66243                0
+    -3.51295       9.3155e-06
+    -3.36346      0.000176296
+    -3.21397       0.00159723
+    -3.06448        0.0212804
+      -2.915         0.304109
+    -2.76551          2.78109
+    -2.61602          18.6803
+    -2.46654          89.7173
+    -2.31705          302.848
+    -2.16756          649.926
+    -2.01808          865.529
+    -1.86859          898.498
+     -1.7191          964.438
+    -1.56961          957.156
+    -1.42013          855.373
+    -1.27064          785.347
+    -1.12115          762.937
+   -0.971666          753.698
+   -0.822179          737.179
+   -0.672692          706.178
+   -0.523205          658.269
+   -0.373718          577.411
+   -0.224231          455.635
+  -0.0747435          341.292
+   0.0747435          341.156
+    0.224231          456.435
+    0.373718          580.045
+    0.523205          662.307
+    0.672692          711.827
+    0.822179           742.45
+    0.971666           758.52
+     1.12115          766.002
+     1.27064          786.435
+     1.42013          854.838
+     1.56961          952.939
+      1.7191          960.383
+     1.86859          901.373
+     2.01808          862.573
+     2.16756          645.359
+     2.31705          303.609
+     2.46654          90.3319
+     2.61602          18.8076
+     2.76551          2.80235
+       2.915          0.27609
+     3.06448        0.0165089
+     3.21397       0.00063517
+     3.36346       9.4402e-06
+     3.51295                0
+     3.66243                0

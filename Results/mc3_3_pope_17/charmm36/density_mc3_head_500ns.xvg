@@ -1,0 +1,74 @@
+# This file was created Wed Jan 12 14:31:25 2022
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /media/peptid/batu_drude/mc3_project/mc3_3_pope_17/charmm36/gromacs
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_mc3_head_500ns.xvg -n index_density.ndx -b 500000 -e 1000000
+# gmx density is part of G R O M A C S:
+#
+# Grunge ROck MAChoS
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "head"
+    -3.66243                0
+    -3.51295                0
+    -3.36346                0
+    -3.21397                0
+    -3.06448                0
+      -2.915                0
+    -2.76551                0
+    -2.61602       0.00115404
+    -2.46654        0.0195761
+    -2.31705         0.155566
+    -2.16756         0.789756
+    -2.01808          2.85211
+    -1.86859          6.86714
+     -1.7191          11.2252
+    -1.56961          12.2012
+    -1.42013          9.55363
+    -1.27064           5.8683
+    -1.12115          3.29519
+   -0.971666          2.40674
+   -0.822179          2.86059
+   -0.672692          4.10827
+   -0.523205          6.24073
+   -0.373718          9.64408
+   -0.224231          14.3767
+  -0.0747435           18.205
+   0.0747435          18.4532
+    0.224231          14.6725
+    0.373718          10.6551
+    0.523205          7.62678
+    0.672692          5.81985
+    0.822179          4.13507
+    0.971666          3.24255
+     1.12115          2.99734
+     1.27064           4.0408
+     1.42013          6.29979
+     1.56961          8.03872
+      1.7191          7.59996
+     1.86859          5.15459
+     2.01808           2.4892
+     2.16756          0.83241
+     2.31705         0.156333
+     2.46654        0.0195863
+     2.61602       0.00187971
+     2.76551                0
+       2.915                0
+     3.06448                0
+     3.21397                0
+     3.36346                0
+     3.51295                0
+     3.66243                0

@@ -1,0 +1,74 @@
+# This file was created Wed Jan 12 14:24:10 2022
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /media/peptid/batu_drude/mc3_project/mc3_1_dope_19/charmm36/gromacs
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_mc3_head_500ns.xvg -n index_density.ndx -b 500000 -e 1000000
+# gmx density is part of G R O M A C S:
+#
+# Getting the Right Output Means no Artefacts in Calculating Stuff
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "head"
+    -3.39376                0
+    -3.25524                0
+    -3.11671                0
+    -2.97819                0
+    -2.83967                0
+    -2.70115                0
+    -2.56263                0
+    -2.42411                0
+    -2.28559       0.00685513
+    -2.14707        0.0698381
+    -2.00855         0.272521
+    -1.87003         0.431377
+    -1.73151          0.64626
+    -1.59299          1.46521
+    -1.45447          2.37847
+    -1.31595           2.5349
+    -1.17743          2.10581
+     -1.0389          1.65735
+   -0.900384          1.35087
+   -0.761864          1.21869
+   -0.623343          1.68853
+   -0.484822          2.52176
+   -0.346302          3.38151
+   -0.207781           4.2289
+  -0.0692603            4.771
+   0.0692603          4.81794
+    0.207781          4.15181
+    0.346302          3.02619
+    0.484822          2.06467
+    0.623343          1.39554
+    0.761864          1.04303
+    0.900384          1.13288
+      1.0389          1.40485
+     1.17743          2.18514
+     1.31595          3.58581
+     1.45447          4.75894
+     1.59299          4.56145
+     1.73151          3.00525
+     1.87003          1.24629
+     2.00855         0.405374
+     2.14707         0.105366
+     2.28559        0.0174025
+     2.42411       0.00267916
+     2.56263                0
+     2.70115                0
+     2.83967                0
+     2.97819                0
+     3.11671                0
+     3.25524                0
+     3.39376                0

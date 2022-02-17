@@ -1,0 +1,74 @@
+# This file was created Wed Jan 12 14:25:22 2022
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /media/peptid/batu_drude/mc3_project/mc3_1_pope_19/charmm36/gromacs
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_mc3_tail_500ns.xvg -n index_density.ndx -b 500000 -e 1000000
+# gmx density is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "tail"
+    -4.20762                0
+    -4.03588                0
+    -3.86414                0
+     -3.6924                0
+    -3.52066                0
+    -3.34892                0
+    -3.17718                0
+    -3.00544                0
+     -2.8337                0
+    -2.66196                0
+    -2.49022      0.000338505
+    -2.31848       0.00617367
+    -2.14674        0.0203094
+      -1.975        0.0995104
+    -1.80326         0.336917
+    -1.63153         0.616622
+    -1.45979          0.89393
+    -1.28805          1.12574
+    -1.11631          1.32277
+   -0.944567          1.45996
+   -0.772828           1.8431
+   -0.601088          2.48946
+   -0.429349          3.69953
+   -0.257609          5.90084
+  -0.0858697           7.9599
+   0.0858697          8.05752
+    0.257609          5.92902
+    0.429349          4.01484
+    0.601088          2.81894
+    0.772828          2.14149
+    0.944567          1.65164
+     1.11631          1.32337
+     1.28805          1.14291
+     1.45979         0.835616
+     1.63153         0.434694
+     1.80326         0.177893
+       1.975        0.0505711
+     2.14674        0.0143149
+     2.31848        0.0040049
+     2.49022      0.000299599
+     2.66196      1.88213e-05
+      2.8337                0
+     3.00544                0
+     3.17718                0
+     3.34892                0
+     3.52066                0
+      3.6924                0
+     3.86414                0
+     4.03588                0
+     4.20762                0

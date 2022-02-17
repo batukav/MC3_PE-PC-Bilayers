@@ -1,0 +1,74 @@
+# This file was created Wed Jan 12 15:04:34 2022
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /media/peptid/batu_drude/mc3_project/mc3_3_dope_17/slipids
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_lipid_500ns.xvg -n index_density.ndx -b 500000 -e 1000000
+# gmx density is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "lipid"
+    -3.19092                0
+    -3.06067                0
+    -2.93043      0.000817379
+    -2.80019        0.0108931
+    -2.66995         0.105748
+    -2.53971         0.818097
+    -2.40947          4.60376
+    -2.27923          20.0009
+    -2.14898          70.9705
+    -2.01874          195.793
+     -1.8885           402.53
+    -1.75826          620.284
+    -1.62802           766.84
+    -1.49778          845.112
+    -1.36754          854.232
+    -1.23729          803.999
+    -1.10705          750.848
+   -0.976811          732.117
+   -0.846569          747.075
+   -0.716328          775.016
+   -0.586086           793.07
+   -0.455845          793.738
+   -0.325604          777.907
+   -0.195362          756.303
+  -0.0651207          740.666
+   0.0651207          740.264
+    0.195362          755.688
+    0.325604          776.642
+    0.455845          793.072
+    0.586086          795.679
+    0.716328          776.883
+    0.846569          749.196
+    0.976811           730.74
+     1.10705          748.713
+     1.23729          802.502
+     1.36754          848.931
+     1.49778          849.004
+     1.62802          771.167
+     1.75826           612.79
+      1.8885           395.38
+     2.01874          195.698
+     2.14898          75.4442
+     2.27923          23.1618
+     2.40947          6.20117
+     2.53971          1.43159
+     2.66995         0.290833
+     2.80019        0.0458198
+     2.93043       0.00312848
+     3.06067      3.66233e-05
+     3.19092                0

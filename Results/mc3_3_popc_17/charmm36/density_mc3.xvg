@@ -1,0 +1,74 @@
+# This file was created Mon Dec 20 21:11:05 2021
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /home/peptid/mounts/batu_drude/mc3_project/mc3_3_popc_17/charmm-gui-3975340319/gromacs
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_mc3.xvg
+# gmx density is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "DLMC3"
+    -3.34017                0
+    -3.20383                0
+     -3.0675                0
+    -2.93117                0
+    -2.79483                0
+     -2.6585                0
+    -2.52217                0
+    -2.38583      0.000110153
+     -2.2495       0.00673969
+    -2.11317        0.0793479
+    -1.97683         0.584349
+     -1.8405          2.81822
+    -1.70417          9.98497
+    -1.56783          26.9528
+     -1.4315          56.3272
+    -1.29517          91.9225
+    -1.15883          119.306
+     -1.0225          130.621
+   -0.886166          133.012
+   -0.749833          137.276
+     -0.6135          148.653
+   -0.477167          170.466
+   -0.340833          201.337
+     -0.2045          233.853
+  -0.0681666          252.944
+   0.0681666          249.042
+      0.2045          226.577
+    0.340833          195.913
+    0.477167          168.586
+      0.6135          151.953
+    0.749833          145.383
+    0.886166            144.8
+      1.0225          146.183
+     1.15883          137.733
+     1.29517          110.233
+      1.4315          68.8894
+     1.56783          33.1812
+     1.70417          12.6433
+      1.8405          3.75101
+     1.97683         0.889441
+     2.11317           0.1462
+      2.2495        0.0164937
+     2.38583      0.000732021
+     2.52217      9.19865e-06
+      2.6585                0
+     2.79483                0
+     2.93117                0
+      3.0675                0
+     3.20383                0
+     3.34017                0

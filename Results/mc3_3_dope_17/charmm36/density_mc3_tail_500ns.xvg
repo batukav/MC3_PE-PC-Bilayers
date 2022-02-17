@@ -1,0 +1,74 @@
+# This file was created Wed Jan 12 14:29:01 2022
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /media/peptid/batu_drude/mc3_project/mc3_3_dope_17/charmm36/gromacs
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_mc3_tail_500ns.xvg -n index_density.ndx -b 500000 -e 1000000
+# gmx density is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "tail"
+    -3.69037                0
+    -3.53975                0
+    -3.38912                0
+    -3.23849                0
+    -3.08786                0
+    -2.93724                0
+    -2.78661                0
+    -2.63598      1.85493e-05
+    -2.48535      0.000839488
+    -2.33473       0.00263905
+     -2.1841        0.0231584
+    -2.03347         0.091818
+    -1.88284          0.34255
+    -1.73222         0.883578
+    -1.58159          1.79796
+    -1.43096          2.59634
+    -1.28033          2.98426
+    -1.12971          3.24204
+   -0.979079          3.79468
+   -0.828451          4.57979
+   -0.677824          6.16268
+   -0.527196          8.86016
+   -0.376569          12.9139
+   -0.225941          17.2261
+  -0.0753137          20.4054
+   0.0753137          20.2599
+    0.225941          16.9691
+    0.376569          12.2534
+    0.527196          8.56301
+    0.677824          5.99372
+    0.828451          4.33544
+    0.979079          3.18555
+     1.12971          2.50822
+     1.28033             2.02
+     1.43096          1.40824
+     1.58159         0.912829
+     1.73222         0.513608
+     1.88284         0.222304
+     2.03347        0.0626215
+      2.1841        0.0162941
+     2.33473       0.00150909
+     2.48535                0
+     2.63598                0
+     2.78661                0
+     2.93724                0
+     3.08786                0
+     3.23849                0
+     3.38912                0
+     3.53975                0
+     3.69037                0

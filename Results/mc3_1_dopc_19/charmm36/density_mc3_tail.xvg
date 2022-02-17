@@ -1,0 +1,74 @@
+# This file was created Tue Jan 11 15:11:02 2022
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /media/peptid/batu_drude/mc3_project/mc3_1_dopc_19/charmm36/gromacs
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_mc3_tail.xvg -n index_density.ndx
+# gmx density is part of G R O M A C S:
+#
+# Gnomes, ROck Monsters And Chili Sauce
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "DLMC3_&_C118_H118R_H118T_H118S_C218_H218R_H218S_H218T_&_!DOPC"
+    -3.50668                0
+    -3.36355                0
+    -3.22042                0
+    -3.07729                0
+    -2.93416                0
+    -2.79103                0
+     -2.6479                0
+    -2.50477                0
+    -2.36164                0
+    -2.21851      0.000519431
+    -2.07538       0.00380161
+    -1.93225        0.0125116
+    -1.78912        0.0348541
+    -1.64599         0.100505
+    -1.50286         0.250606
+    -1.35973         0.484396
+     -1.2166         0.717012
+    -1.07347         0.949735
+   -0.930344          1.29677
+   -0.787214          1.92476
+   -0.644084          2.65613
+   -0.500954          3.54839
+   -0.357825          4.44622
+   -0.214695          5.29076
+  -0.0715649          5.77624
+   0.0715649            5.721
+    0.214695          5.24266
+    0.357825          4.27215
+    0.500954          3.16255
+    0.644084          2.27731
+    0.787214          1.69862
+    0.930344          1.30525
+     1.07347          0.95972
+      1.2166         0.693146
+     1.35973         0.455262
+     1.50286         0.271238
+     1.64599         0.122083
+     1.78912        0.0447738
+     1.93225        0.0125651
+     2.07538        0.0042261
+     2.21851       0.00138085
+     2.36164       4.5115e-05
+     2.50477                0
+      2.6479                0
+     2.79103                0
+     2.93416                0
+     3.07729                0
+     3.22042                0
+     3.36355                0
+     3.50668                0

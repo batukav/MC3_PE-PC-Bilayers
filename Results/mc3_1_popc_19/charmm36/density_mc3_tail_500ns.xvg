@@ -1,0 +1,74 @@
+# This file was created Wed Jan 12 14:39:36 2022
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /media/peptid/batu_drude/mc3_project/mc3_1_popc_19/charmm36/gromacs
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_mc3_tail_500ns.xvg -n index_density.ndx -b 500000 -e 1000000
+# gmx density is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "tail"
+    -3.38079                0
+     -3.2428                0
+    -3.10481                0
+    -2.96682                0
+    -2.82883                0
+    -2.69084                0
+    -2.55284                0
+    -2.41485                0
+    -2.27686                0
+    -2.13887                0
+    -2.00088      1.83374e-05
+    -1.86289       0.00102128
+     -1.7249       0.00919762
+     -1.5869        0.0480199
+    -1.44891         0.165687
+    -1.31092         0.352838
+    -1.17293           0.5559
+    -1.03494         0.803975
+   -0.896945          1.09469
+   -0.758954          1.62653
+   -0.620962          2.33971
+   -0.482971          3.26748
+   -0.344979          4.33494
+   -0.206987          5.36453
+  -0.0689958           5.8697
+   0.0689958          5.87182
+    0.206987          5.45988
+    0.344979          4.56663
+    0.482971          3.51588
+    0.620962          2.59116
+    0.758954          1.91063
+    0.896945          1.54356
+     1.03494          1.30632
+     1.17293          1.01136
+     1.31092          0.69683
+     1.44891         0.357905
+      1.5869          0.11469
+      1.7249        0.0270574
+     1.86289        0.0046717
+     2.00088      0.000109778
+     2.13887                0
+     2.27686                0
+     2.41485                0
+     2.55284                0
+     2.69084                0
+     2.82883                0
+     2.96682                0
+     3.10481                0
+      3.2428                0
+     3.38079                0

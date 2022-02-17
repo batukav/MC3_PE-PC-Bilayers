@@ -1,0 +1,74 @@
+# This file was created Mon Dec 20 21:11:05 2021
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /home/peptid/mounts/batu_drude/mc3_project/mc3_3_popc_17/charmm-gui-3975340319/gromacs
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_popc.xvg
+# gmx density is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "POPC"
+    -3.34017                0
+    -3.20383      0.000429494
+     -3.0675        0.0102105
+    -2.93117         0.149211
+    -2.79483          1.52148
+     -2.6585          9.35642
+    -2.52217          38.3499
+    -2.38583          113.976
+     -2.2495          265.767
+    -2.11317          506.064
+    -1.97683          745.665
+     -1.8405          835.576
+    -1.70417          833.728
+    -1.56783          879.429
+     -1.4315          893.003
+    -1.29517          830.587
+    -1.15883          769.494
+     -1.0225          740.336
+   -0.886166          730.249
+   -0.749833           718.11
+     -0.6135          691.261
+   -0.477167          647.887
+   -0.340833          587.136
+     -0.2045          508.117
+  -0.0681666          443.024
+   0.0681666          445.784
+      0.2045          514.195
+    0.340833          594.351
+    0.477167          651.884
+      0.6135          689.074
+    0.749833          711.617
+    0.886166          720.965
+      1.0225          727.704
+     1.15883          753.359
+     1.29517          815.276
+      1.4315          881.036
+     1.56783          876.486
+     1.70417          836.575
+      1.8405          835.284
+     1.97683          752.256
+     2.11317          518.411
+      2.2495          274.835
+     2.38583           118.51
+     2.52217          40.2611
+      2.6585           9.9815
+     2.79483          1.67472
+     2.93117         0.176773
+      3.0675        0.0112468
+     3.20383      0.000431638
+     3.34017      9.24107e-06

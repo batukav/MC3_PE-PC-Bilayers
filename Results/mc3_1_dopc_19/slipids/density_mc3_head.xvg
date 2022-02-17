@@ -1,0 +1,74 @@
+# This file was created Tue Jan 11 16:58:50 2022
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /media/peptid/batu_drude/mc3_project/mc3_1_dopc_19/slipids
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_mc3_head.xvg -n index_density.ndx
+# gmx density is part of G R O M A C S:
+#
+# Glycine aRginine prOline Methionine Alanine Cystine Serine
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "DMD_&_N_C42_C43"
+    -3.38589                0
+    -3.24769      0.000106132
+    -3.10949      0.000969715
+    -2.97129        0.0095596
+    -2.83309        0.0462882
+    -2.69489         0.181431
+    -2.55669         0.603276
+    -2.41849          1.43458
+    -2.28029          2.51629
+    -2.14209            3.517
+    -2.00389          3.94151
+    -1.86569          4.09976
+    -1.72749          4.39563
+    -1.58929          4.45374
+    -1.45109          3.73573
+     -1.3129          2.48417
+     -1.1747          1.29311
+     -1.0365         0.562699
+   -0.898297         0.197599
+   -0.760097        0.0414662
+   -0.621898       0.00832224
+   -0.483698       0.00106064
+   -0.345499                0
+   -0.207299                0
+  -0.0690998                0
+   0.0690998                0
+    0.207299                0
+    0.345499      0.000529703
+    0.483698       0.00689305
+    0.621898        0.0378937
+    0.760097         0.125782
+    0.898297         0.301126
+      1.0365         0.642336
+      1.1747          1.28236
+      1.3129          2.21065
+     1.45109          3.08774
+     1.58929          3.71134
+     1.72749          3.82222
+     1.86569          3.72041
+     2.00389          4.07673
+     2.14209          4.06061
+     2.28029          3.27748
+     2.41849          1.96673
+     2.55669         0.847896
+     2.69489         0.270921
+     2.83309        0.0581565
+     2.97129        0.0103787
+     3.10949       0.00386981
+     3.24769       0.00170716
+     3.38589      0.000529958

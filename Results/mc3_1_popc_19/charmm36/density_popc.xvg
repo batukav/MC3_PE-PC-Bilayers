@@ -1,0 +1,74 @@
+# This file was created Mon Dec 20 20:04:20 2021
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /home/peptid/mounts/batu_drude/mc3_project/mc3_1_popc_19/charmm-gui-3972867519/gromacs
+# Command line:
+#   gmx density -f prod_centered.xtc -s prod.tpr -center -o density_popc.xvg
+# gmx density is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "POPC"
+    -3.55156      4.58489e-05
+     -3.4066       0.00202149
+    -3.26164        0.0326891
+    -3.11668         0.298919
+    -2.97172          2.10556
+    -2.82676           11.427
+    -2.68179          43.5135
+    -2.53683          122.981
+    -2.39187          278.666
+    -2.24691          521.399
+    -2.10195          772.862
+    -1.95698          890.627
+    -1.81202          900.579
+    -1.66706          934.116
+     -1.5221          958.833
+    -1.37714          911.162
+    -1.23218          846.502
+    -1.08721          814.825
+   -0.942252          806.145
+    -0.79729          801.689
+   -0.652328          788.402
+   -0.507366          761.583
+   -0.362405          719.003
+   -0.217443          660.979
+  -0.0724809           612.26
+   0.0724809          612.017
+    0.217443          660.692
+    0.362405          719.784
+    0.507366          762.572
+    0.652328          786.644
+     0.79729          799.549
+    0.942252           806.02
+     1.08721          816.377
+     1.23218          849.812
+     1.37714          912.638
+      1.5221          954.939
+     1.66706          927.843
+     1.81202          897.767
+     1.95698          890.247
+     2.10195          773.528
+     2.24691          523.931
+     2.39187          281.866
+     2.53683          124.007
+     2.68179          43.4371
+     2.82676          11.3579
+     2.97172          2.09916
+     3.11668         0.266749
+     3.26164         0.020186
+      3.4066      0.000767413
+     3.55156      9.13714e-06

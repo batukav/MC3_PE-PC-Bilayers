@@ -1,0 +1,74 @@
+# This file was created Wed Jan 12 14:50:28 2022
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /media/peptid/batu_drude/mc3_project/mc3_3_popc_17/slipids
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_lipid_500ns.xvg -n index_density.ndx -b 500000 -e 1000000
+# gmx density is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "lipid"
+    -2.93608       0.00106946
+    -2.81624       0.00830338
+     -2.6964        0.0950294
+    -2.57656         0.733843
+    -2.45672          3.77691
+    -2.33688          14.8172
+    -2.21704           45.431
+     -2.0972          110.011
+    -1.97736          221.891
+    -1.85752          383.091
+    -1.73768          558.235
+    -1.61784           693.79
+      -1.498           773.34
+    -1.37816          817.341
+    -1.25832          813.893
+    -1.13848          753.576
+    -1.01864           689.33
+   -0.898801          663.568
+   -0.778961           680.95
+   -0.659121           718.69
+   -0.539281          750.859
+   -0.419441          762.922
+     -0.2996          756.793
+    -0.17976          743.657
+  -0.0599201           734.13
+   0.0599201          733.718
+     0.17976          738.308
+      0.2996          743.898
+    0.419441          746.006
+    0.539281          732.091
+    0.659121          699.118
+    0.778961          669.187
+    0.898801          662.798
+     1.01864          694.562
+     1.13848          760.718
+     1.25832          821.127
+     1.37816          821.634
+       1.498          772.684
+     1.61784          690.192
+     1.73768          555.063
+     1.85752          383.613
+     1.97736           227.65
+      2.0972          113.866
+     2.21704          47.4616
+     2.33688          15.7205
+     2.45672          4.15132
+     2.57656         0.895795
+      2.6964         0.182127
+     2.81624        0.0329446
+     2.93608       0.00406054

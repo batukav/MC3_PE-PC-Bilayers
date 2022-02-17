@@ -1,0 +1,74 @@
+# This file was created Wed Jan 12 14:23:00 2022
+# Created by:
+#                     :-) GROMACS - gmx density, 2021.2 (-:
+# 
+# Executable:   /usr/local/gromacs_2021_2/bin/gmx
+# Data prefix:  /usr/local/gromacs_2021_2
+# Working dir:  /media/peptid/batu_drude/mc3_project/mc3_1_dopc_19/charmm36/gromacs
+# Command line:
+#   gmx density -f prod.xtc -s prod.tpr -center -o density_lipid_500ns.xvg -n index_density.ndx -b 500000 -e 1000000
+# gmx density is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "Partial density"
+@    xaxis  label "Relative position from center (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "lipid"
+    -3.50668       0.00032461
+    -3.36355        0.0118509
+    -3.22042         0.157081
+    -3.07729          1.12578
+    -2.93416          6.37954
+    -2.79103          25.9411
+     -2.6479          78.4779
+    -2.50477          187.917
+    -2.36164          377.041
+    -2.21851          623.161
+    -2.07538          809.684
+    -1.93225          854.641
+    -1.78912          849.794
+    -1.64599          896.471
+    -1.50286          919.128
+    -1.35973          870.457
+     -1.2166          820.481
+    -1.07347           798.62
+   -0.930344          795.416
+   -0.787214          792.416
+   -0.644084          778.864
+   -0.500954          753.133
+   -0.357825          715.887
+   -0.214695          674.138
+  -0.0715649          643.008
+   0.0715649          642.653
+    0.214695          675.234
+    0.357825          723.562
+    0.500954          770.832
+    0.644084          804.607
+    0.787214          821.704
+    0.930344          829.384
+     1.07347          837.177
+      1.2166          861.356
+     1.35973          908.262
+     1.50286          939.062
+     1.64599          902.639
+     1.78912          852.057
+     1.93225          855.085
+     2.07538          798.745
+     2.21851          593.007
+     2.36164          344.745
+     2.50477          166.475
+      2.6479          66.9729
+     2.79103          20.8022
+     2.93416          4.77144
+     3.07729         0.779196
+     3.22042        0.0891396
+     3.36355       0.00396757
+     3.50668      5.44067e-05
